@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Gopher Bar Home Page</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <style>
+         body {
+         text-align: center;
+         }
+         main {
+         padding: 15px;
+         margin: 10px auto 100px auto;
+         background-color: #FFFF00;
+         max-width: 600px;
+         }
+         header {
+         text-align: left;
+         }
+         .description {
+         border: 1px solid black;
+         line-height: 130%;
+         margin: 0 auto;
+         padding: 15px;
+         text-align: left;
+         width: 370px;
+         }
+      </style>
+   </head>
+   <Body>
+      <header>
+         <h1> Gopher Bar</h1>
+         <div class="jumbotron">
+            <h1> We are opening a new location soon!</h1>
+         </div>
+         <nav>
+            <div class="container">
+               <ul class="nav nav-pills" style="text-align: left">
+                  <li>
+                     <a class="btn btn-info btn-lg" href="Home.html">
+                        <div class="glyphicon glyphicon-home" ></div>
+                        Home
+                     </a>
+                  </li>
+                  <li><a href="Menu.html">Menu</a></li>
+                  <li><a href="ContactUs.html">Contact Us</a></li>
+                  <li><a href="Beverages.html">Beverages</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="border:1px solid black; margin:15px; height:300px; width:550px; text-align: center;">>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+               <div class="item active">
+                  <h1> We are opening a new location soon</h1>
+               </div>
+               <div class="item">
+                  <h1> We are rolling out our seasonal menue with sepcial options for the season.</h1>
+               </div>
+               <div class="item">
+                  <h1>The drink of the month is the SG Special Brew!</h1>
+               </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
+         <img src="images/gopherbar.jpg" alt="photograph of the gopher bar"
+            style="border:1px solid black; margin:15px; height:200px; width:370px; text-align: center;"> <!-- In-line styling on image -->
+         <div id="description">
+            <h2><em>Restaurant Description</em></h2>
+            <p>Have you ever wondered heaven would be like if you were just a little bit naughty?  Well this is your place, and you will like it here </p>
+         </div>
+      </main>
+      <footer>
+         <p>241 7th St E, St Paul, MN 55101 </p>
+         <p>651-291-9638</p>
+      </footer>
+   </body>
+</html>
