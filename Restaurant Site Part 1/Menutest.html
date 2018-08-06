@@ -1,64 +1,116 @@
 <!DOCTYPE html>
-<!-- Jory Eugene Pestorious -->
-<html>
-  <head>
-    <title>Kimbap Heaven - Menu</title>
-    <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
-    <style>
-      #centerMenu {
-        margin: 10px auto 100px auto;
-        padding: 30px;
-        max-width: 1100px;
-        text-align: center;
-      }
-      th, td {
-        padding: 11px;
-      }
-    </style>
-  </head>
-  <body>
-
-    <header>
-      <h1>Kimbap Heaven</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contactUs.html">Contact Us</a>
-      </nav>
-    </header>
-
-    <div id="centerMenu">
-      <table>
-        <tr>
-          <th>The Original Kimbap</th>
-          <th>Vegetable Kimbap</th>
-          <th>Kimchi Kimbap</th>
-        </tr>
-        <tr>
-          <td>The original kimbap with yellow pickled sweet radish, ham, carrots, greens, and egg
-          <br>$2.00</td>
-          <td>Filled with various veggies including carrots and spinach <br>$1.50</td>
-          <td>Standard kimbap fillings plus a healthy dose of our delicious homemade kimchi
-          <br>$3.00</td>
-        </tr>
-        <tr>
-          <th>Egg-wrapped Kimbap</th>
-          <th>Cheese Kimbap</th>
-          <th>Beef Kimbap</th>
-        </tr>
-        <tr>
-          <td>Our standard kimbap with an outside layer of egg!
-          <br>$2.50</td>
-          <td>With delicious cheese <br>$2.50</td>
-          <td>Filled with our succulent grilled beef <br>$3.50</td>
-        </tr>
-      </table>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Gopher Bar Home Page</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
+   </head>
+   <Body>
+      <header>
+         <h1>Gopher Bar</h1>
+         <nav>
+            <div class="container">
+               <ul class="nav nav-pills">
+                  <li>
+                     <a href="Home.html" class="glyphicon glyphicon-home"> Home</a>
+                  </li>
+                  <li class="active"><a href="Menu.html">Menu</a></li>
+                  <li><a href="ContactUs.html">Contact Us</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <div class="row">
+      <div id="menu-content" class="container" style="background-color: #FFFF00;">
+         <h2 id="menu-title" class="text-center">Menu</h2>
+         <div class="col-md-3 col-sm-3 col-xs-12 col-xxs-12">
+            <div class="menu-tile">
+               <h3 class="text-center">Burger and Fries</h3>
+               <p>An American Classic
+                  <br/>Your Choice - with our with out cheese, pickle, ionion, tomatio, and lettuce. Served with our famous thick cut fries
+                  <br/> $7.95
+               </p>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-3 col-xs-12 col-xxs-12">
+            <div class="menu-tile">
+               <h3 class="text-center">Hot Dog and and Chips</h3>
+               <p>A Summer Classic!
+                  <br/> Your choice - white or wheat bun, Relish, Mustard, and ketchup Served with our house made chips Served with our house made chips
+                  <br/> $7.95
+                  <br/>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-3 col-xs-12 col-xxs-12">
+            <div class="menu-tile">
+               <h3 class="text-center">Italian Sausage and Peppers</h3>
+               <p>An All-Time Favorite
+                  <br/> Your choice - mild or spicy, with cole slawServed with garlic mashers
+                  <br/> $10.95
+                  <br/>
+            </div>
+         </div>
+         <div class="clearfix visible-xs"></div>
+         <div class="col-md-3 col-sm-3 col-xs-12 col-xxs-12">
+            <div class="menu-tile">
+               <h3 class="text-center" style="word-wrap: break-word">Tenderloin Sandwich and Chips</h3>
+               <p>Really hits the spot!
+                  <br/> Plain or Sesame Seed Bun, Pickle, ionion, tomato, and leattuce Served with our house made chips
+                  <br/> $8.95
+                  <br/>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-3 col-xs-12 col-xxs-12">
+            <div class="menu-tile">
+               <h3 class="text-center">House Salad</h3>
+               <p>Really hits the spot!
+                  <br/> Your choice - with or without cheese Iceberg Lettuce, tomatoes, peppers Thousand Island, or Ranch Dressing Served with a dinner roll
+                  <br/> $6.95
+                  <br/>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-3 col-xs-12 col-xxs-12">
+            <div class="menu-tile">
+               <h3 class="text-center">Bristket Sandwich and Fries</h3>
+               <p>A taste of Texas!
+                  <br/> A smoked Brisket on a thick-cut Texas Toast, Cole Slaw Served with our famous thick-cut french fries
+                  <br/> $6.95
+                  <br/>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <div class="menu-tile" class="menu-tile">
+               <h3 class="text-center">Beverages</h3>
+               <table>
+                  <tr>
+                     <td>Root Beer</td>
+                     <td>$3.00</td>
+                  </tr>
+                  <tr>
+                     <td>Bottled Water</td>
+                     <td>$1.25</td>
+                  </tr>
+                  <tr>
+                     <td>Lemonade</td>
+                     <td>$1.00</td>
+                  </tr>
+                  <tr>
+                     <td>Iced Tea</td>
+                     <td>$1.25</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
     </div>
-
-    <footer>
-      <p>1000 Korea Town Street, Los Angeles, California, 90001</p>
-      <p>(562)-453-1004</p>
-    </footer>
-
-  </body>
+      <footer>
+         <p>241 7th St E, St Paul, MN 5510</p>
+         <p>651-291-9638</p>
+      </footer>
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
 </html>
